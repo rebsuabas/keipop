@@ -1,0 +1,625 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimal Portfolio\n"
+"POT-Creation-Date: 2019-07-05 13:59+0530\n"
+"PO-Revision-Date: 2019-07-05 14:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: Abileweb\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Esa página no se puede encontrar."
+
+#: 404.php:25
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se encontró nada en esta ubicación. Tal vez intente uno de los "
+"enlaces de abajo o una búsqueda?"
+
+#: comments.php:35
+msgid "1 Comment"
+msgstr "1 comentario"
+
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: footer.php:1
+msgid "https://abileweb.com/"
+msgstr "https://abileweb.com/"
+
+#: footer.php:1
+#, php-format
+msgid "Designed by %s"
+msgstr "Diseñado por% s"
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr "Menú Primaria"
+
+#: functions.php:109
+msgid "Read More"
+msgstr "Lee mas"
+
+#: functions.php:136
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:138 functions.php:147 functions.php:156 functions.php:165
+#: functions.php:174
+msgid "Add widgets here."
+msgstr "Añade widgets aquí."
+
+#: functions.php:145
+msgid "Footer 1"
+msgstr "Pie de página 1"
+
+#: functions.php:154
+msgid "Footer 2"
+msgstr "Pie de página 2"
+
+#: functions.php:163
+msgid "Footer 3"
+msgstr "Pie de página 3"
+
+#: functions.php:172
+msgid "Footer 4"
+msgstr "Pie de página 4"
+
+#: header.php:67
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para:% s"
+
+#: inc/breadcrumb.php:7
+msgid "Home"
+msgstr "Casa"
+
+#: inc/breadcrumb.php:101
+#, php-format
+msgid "Posts by %s"
+msgstr "Mensajes por% s"
+
+#: inc/breadcrumb.php:104
+msgid "Error 404"
+msgstr "error 404"
+
+#: inc/breadcrumb.php:109
+msgid "Page"
+msgstr "Página"
+
+#: inc/custom-header.php:1
+msgid "banner-image"
+msgstr "banner-imagen"
+
+#: inc/meta-box.php:6
+msgid "Page Title"
+msgstr "Título de la página"
+
+#: inc/meta-box.php:22
+msgid "Disable Page Title: "
+msgstr "Deshabilitar el título de la página:"
+
+#: searchform.php:15
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Buscar y hellip;"
+
+#: searchform.php:20
+msgid "Search"
+msgstr "Buscar"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Nada Encontrado"
+
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Listo para publicar su primer post? <a href=\"%1$s\"> Comience aquí </a>."
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero nada coincide con sus términos de búsqueda. Por favor, "
+"intente de nuevo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que estás buscando. Tal vez la búsqueda "
+"puede ayudar."
+
+#: template-parts/footer/widgets.php:39
+msgid "Footer"
+msgstr "Pie de página"
+
+#: template-parts/page/content-page.php:33
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/post/content-single.php:7
+msgid "Share:"
+msgstr "Compartir:"
+
+#: template-parts/post/content-single.php:7
+msgid "Click to send this page to Twitter!"
+msgstr "Haga clic para enviar esta página a Twitter!"
+
+#: template-parts/post/slider.php:54
+msgid "Continue Reading"
+msgstr "Sigue leyendo"
+
+#: tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Instalar los complementos requeridos"
+
+#: tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Instalar complementos"
+
+#: tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalación del complemento:% s"
+
+#: tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Actualización del complemento:% s"
+
+#: tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Algo salió mal con el plugin API."
+
+#: tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Comenzar a instalar el plugin"
+msgstr[1] "Comenzar a instalar complementos"
+
+#: tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Comenzar a actualizar el plugin"
+msgstr[1] "Empezar actualizando complementos"
+
+#: tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Comience activando el plugin"
+msgstr[1] "Comenzar a activar plugins."
+
+#: tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de complementos requeridos"
+
+#: tgm/class-tgm-plugin-activation.php:386
+#: tgm/class-tgm-plugin-activation.php:827
+#: tgm/class-tgm-plugin-activation.php:2533
+#: tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Regreso al panel de control"
+
+#: tgm/class-tgm-plugin-activation.php:387
+#: tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: tgm/class-tgm-plugin-activation.php:388
+#: tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "El siguiente plugin fue activado exitosamente:"
+msgstr[1] "Los siguientes complementos fueron activados exitosamente:"
+
+#: tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin no activado. Se necesita una versión superior de% s para este tema. "
+"Por favor, actualice el complemento."
+
+#: tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Hay uno o más complementos necesarios o recomendados para instalar, "
+"actualizar o activar."
+
+#: tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Por favor, póngase en contacto con el administrador de este sitio para "
+"obtener ayuda."
+
+#: tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Este complemento debe actualizarse para que sea compatible con su tema."
+
+#: tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Actualización requerida"
+
+#: tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"El paquete del complemento remoto no contiene una carpeta con el slug "
+"deseado y el cambio de nombre no funcionó."
+
+#: tgm/class-tgm-plugin-activation.php:934
+#: tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Póngase en contacto con el proveedor de complementos y pídales que los "
+"empaqueten de acuerdo con las pautas de WordPress."
+
+#: tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"El paquete de complemento remoto consta de más de un archivo, pero los "
+"archivos no están empaquetados en una carpeta."
+
+#: tgm/class-tgm-plugin-activation.php:1121
+#: tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#: tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v% s"
+
+#: tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "necesario"
+
+#: tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "recomendado"
+
+#: tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Fuente externa"
+
+#: tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "No instalado"
+
+#: tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Activo"
+
+#: tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Actualización requerida no disponible"
+
+#: tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Requiere actualización"
+
+#: tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Actualizacion recomendada"
+
+#: tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocido"
+
+#: tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versión mínima requerida:"
+
+#: tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "No hay complementos para instalar, actualizar o activar."
+
+#: tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Enchufar"
+
+#: tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Fuente"
+
+#: tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versión"
+
+#: tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Estado"
+
+#: tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensaje de actualización del autor del plugin:"
+
+#: tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Actualizar"
+
+#: tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activar"
+
+#: tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"No se seleccionaron complementos para ser instalados. Ninguna acción tomada."
+
+#: tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"No se seleccionaron complementos para ser instalados. Ninguna acción tomada."
+
+#: tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "No hay complementos disponibles para ser instalados en este momento."
+
+#: tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "No hay complementos disponibles para ser actualizados en este momento."
+
+#: tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"No se seleccionaron complementos para ser activados. Ninguna acción tomada."
+
+#: tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "No hay complementos disponibles para ser activados en este momento."
+
+#: tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "La activación del plugin ha fallado."
+
+#: tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Se inicia el proceso de instalación y activación. Este proceso puede tardar "
+"un tiempo en algunos hosts, así que tenga paciencia."
+
+#: tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3509
+#: tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Mostrar detalles"
+
+#: tgm/class-tgm-plugin-activation.php:3509
+#: tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Ocultar detalles"
+
+#: tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Todas las instalaciones y activaciones han sido completadas."
+
+#: tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Se está iniciando el proceso de instalación. Este proceso puede tardar un "
+"tiempo en algunos hosts, así que tenga paciencia."
+
+#: tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han sido completadas."
+
+#: tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""

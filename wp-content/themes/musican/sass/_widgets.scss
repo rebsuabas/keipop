@@ -1,0 +1,332 @@
+.widget {
+	margin: 0 0 2.5em;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+    }
+    
+    ul {
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .widget-title {
+        color: $color__heading;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 20px;
+        letter-spacing: 0px;
+    }
+
+}
+
+
+.widget_search {
+    form {
+        position: relative;
+
+        input[type=search]  {
+            padding: 10px;
+            width: 100%;
+            border-radius: 3px;
+            position: relative;
+            background: #fff;
+            border-width: 1px;
+            border-style: solid;
+            line-height: 30px; 
+        }
+
+        .search-submit {
+            position: absolute;
+            background-color: transparent;
+            border-width: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            padding: 0 15px;
+            border: none;
+            border-left: 1px solid $color__text-main;
+            border-radius: 0;
+            height: 23px;
+            font-size: 15px;
+            line-height: 1;
+            cursor: pointer;
+
+            i {
+                color: $color__text-main;
+            }
+        }
+        
+    }
+}
+
+.widget_tag_cloud {
+    a {
+        font-size: 16px !important;
+    }
+}
+/*--------------------------------------------------------------
+## Elementor widgets
+--------------------------------------------------------------*/
+/* Audio Playlist */
+body .wp-playlist-light {
+    background: none;
+    border: 1px solid #fb3b6494;
+    border-right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 31px 30px;
+    clear: both;
+    color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1);
+	line-height: $font__line-height-body;
+    position: relative;
+    margin: 0;
+
+    .wp-playlist-current-item {
+        display: none;
+        margin: 0;
+    }
+
+    .wp-playlist-item {
+        padding: 10px 0;
+        background: none;
+
+        .wp-playlist-item-length {
+            top: 10px;
+        }
+
+        .wp-playlist-caption {
+            font-size: 16px;
+        }
+    }
+
+    .mejs-horizontal-volume-total {
+        height: 5px;
+        top: 18px;
+        .mejs-horizontal-volume-current {
+            background: $color__primary;
+        }
+    }
+
+    .mejs-time-rail {
+        .mejs-time-handle-content,
+        .mejs-time-hovered,
+        .mejs-time-buffering, .mejs-time-current,  .mejs-time-float-corner, .mejs-time-float-current, .mejs-time-loaded, .mejs-time-marker, .mejs-time-total {
+            height: 5px;
+        }
+        .mejs-time-total {
+            
+            top: 13px;
+        }
+        .mejs-time-current {
+            background: $color__primary;
+        }
+        .mejs-time-handle, .mejs-time-handle-content,
+        .mejs-time-buffering, .mejs-time-current {
+            border: 0;
+        }
+        .mejs-time-handle-content {
+            top: 0;
+        }
+    }
+
+    .mejs-container {
+        margin: 0;
+        max-width: 100%;
+        clear: both;
+        background: #222;
+        
+        .mejs-controls {
+            position: relative;
+            height: auto;
+
+            .mejs-button {
+                button {
+                    background: transparent; 
+                    &::before {
+                        content: '';
+                        display: inline-block;
+                        font-family: 'FontAwesome';
+                        font-size: 16px;
+                        position: absolute;
+                        left: 0;
+                    }
+                }
+                &.mejs-play button::before {
+                    content: "\f04b";
+                }
+                &.mejs-next button::before {
+                    content: "\f051";
+                }
+                &.mejs-previous button::before {
+                    content: "\f048";
+                }
+                &.mejs-mute button::before {
+                    content: "\f028";
+                }
+                &.msjs-unmute button::before {
+                    content: "\f026";
+                }
+                &.mejs-pause button::before {
+                    content: "\f04c";
+                }
+            }
+        }
+
+    }
+}
+
+/* Upcoming Events */
+.upcoming-events {
+    ul {
+        list-style: none;
+        margin: 35px 0;
+        padding: 0;
+        
+        li {
+            width: 100%;
+            clear: both;
+            display: block;
+            overflow: hidden;
+            position: relative;
+            border-bottom: 1px solid #e1e2e4;
+            padding: 25px 0;
+
+            .event_list_entry {
+                display: inline-block;
+                float: left;
+                position: relative;
+                font-size: 15px;
+                height: 60px;
+
+                &.event_date {
+                    width: 10%;
+                    text-align: left;
+                }
+
+                &.event_title {
+                    width: 38%;
+                }
+                &.event_venue {
+                    letter-spacing: 1px;
+                    width: 25%;
+                    line-height: 60px;
+                }
+                &.event_time {
+                    width: 10%;
+                    line-height: 60px;
+                }
+                &.event_buy {
+                    width: 17%;
+                    text-align: right;
+                    line-height: 60px;
+                }
+            }
+        }
+    }
+    .event_list_date_container {
+        display: inline-block;
+        text-align: center;
+        strong {
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 38px;
+        }
+        span {
+            font-weight: 500;
+            font-size: 14px;
+            text-transform: uppercase;
+            display: block;
+            line-height: 1em;
+        }
+    }
+
+    .event_img, .event_list_title_loc {
+        display: inline-block;
+        float: left;
+    }
+
+    .event_img {
+        width: 70px;
+        height: 60px;
+        margin-right: 20px;
+        position: relative;
+        img {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .event_list_title_loc {
+        h3 {
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding-top: 2px;
+        }
+        span {
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+
+    .event_buy span {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        text-indent: 1px;
+        font-weight: 400;
+        border-radius: 5px;
+        border: 1px solid;
+        text-transform: uppercase;
+        width: 140px;
+        text-align: center;
+    }
+
+    .all-events-btn {
+        text-align: center;
+        a {
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: $color__primary;
+        }
+    }
+}
+
+/* Recent posts */
+#recent_posts {
+    .entry-title {
+        font-size: 23px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .entry-content {
+        margin-top: 10px;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}
+.view-all-blog {
+    text-align: center;
+    margin-top: 40px;
+    a {
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1px;
+        color: $color__primary;
+    }
+}

@@ -1,0 +1,58 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-color: $color__primary;
+	border-radius: 3px;
+	background: $color__primary;
+	color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0 30px;
+    line-height: 45px;
+
+	&:hover,
+	&:active,
+	&:focus {
+        background: #404040;
+        border-color: #404040;
+	}
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: $color__text-input;
+	border: 1px solid $color__border-input;
+	border-radius: 3px;
+	padding: 5px;
+
+	&:focus {
+        color: $color__text-input-focus;
+        outline: none;
+	}
+}
+
+select {
+	border: 1px solid $color__border-input;
+}
+
+textarea {
+	width: 100%;
+}
+

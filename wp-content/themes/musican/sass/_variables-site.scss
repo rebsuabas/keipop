@@ -1,0 +1,48 @@
+$color__primary: #fb3b64;
+
+$color__background-body: #f3f5f7;
+$color__background-screen: #f1f1f1;
+$color__background-hr: #ccc;
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+
+$color__text-screen: #21759b;
+$color__text-input: #6f738f;
+$color__text-input-focus: #111;
+$color__link: #6f738f;
+$color__link-visited: #fb3b64;
+$color__link-hover: #fb3b64;
+$color__text-main: #6f738f;
+$color__heading: #181b31;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #e1e2e4;
+$color__border-abbr: #666;
+
+
+$font__main:  'PT Sans', sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+
+
+
+$columns: (
+	1: 100%,
+	2: 50%,
+	3: 33.33%,
+	4: 25%,
+	5: 20%,
+	6: 16.66%,
+	7: 14.28%,
+	8: 12.5%,
+	9: 11.11%
+);
+
+$columns__margin: 3.5%;
+

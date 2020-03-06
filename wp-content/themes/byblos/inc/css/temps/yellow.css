@@ -1,0 +1,104 @@
+/* 
+    Created on : Nov 17, 2014, 3:49:41 PM
+    Author     : Bilal
+*/
+
+a,a:visited,
+body.single-event .event-details {
+  color: #F8DB14;
+}
+a:hover,#site-navigation.main-navigation li a:hover,
+.site-branding.dark #site-navigation.main-navigation li a:hover{
+    color: #F8DB14;
+}
+
+.sc-slider-wrapper .camera_caption{
+    background: #F8DB14;
+}
+
+.site-branding .site-title a{
+    color: #F8DB14;
+}
+.primary-color{ color: #F8DB14;}
+.btn-primary {
+    background-color: #F8DB14;
+    border-color: #EB5E00;
+    color: #ffffff !important;    
+}
+a.button-primary,
+input[type="submit"] {
+    background-color: #F8DB14;
+    color: #000;
+}
+.button-primary:hover,
+input[type="submit"]:hover {
+    background-color: #f5d313;
+    color: #000;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+
+}
+fieldset[disabled] .btn-primary.active {
+  background-color: #F8DB14;
+}
+.btn-primary .badge {
+  color: #F8DB14;
+}
+.btn-link {
+  color: #F8DB14;
+}
+.sc-primary-color{ color: #F8DB14;}
+.sc-primary-border{ border-color: #F8DB14;}
+.site-branding .search-bar .search-field:focus{
+    border-bottom: 1px solid #F8DB14;
+}
+.icon404{
+    color: #F8DB14;
+}
+.nav-menu > li a:hover{
+    color: #F8DB14;
+}
+.scroll-top:hover{
+    border-color: #F8DB14;
+}
+#site-toolbar{
+    /*border-bottom: 1px solid #F8DB14;*/
+}
+@media(max-width: 600px){
+    .nav-menu > li.current_page_item a{
+        color: #F8DB14;
+    }      
+}
+
+.sc-slider-wrapper .camera_caption div a.slider-button {
+    color: #000;
+    border: thin solid;
+}
+
+/* Additional Rules */
+#sc-slider-banner.banner-below,
+.byblos-pricing-table .inner.special {
+    border-color: #F8DB14;
+}
+
+.byblos-pricing-table .inner.special .widget-title,
+#homepage-area-b .byblos-pricing-table .inner.special span.special {
+    color: #F8DB14;
+}
+
+.byblos-pricing-table .inner.special span.special,
+.camera_wrap .camera_pag .camera_pag_ul li:hover > span,
+.sc-slider-wrapper .camera_caption div a.slider-button,
+div#homepage-area-b.homepage-widget-area > .inner,
+body.single-event .event-details span.fa {
+    background-color: #F8DB14;
+}
+
+.sc-slider-wrapper .camera_caption div a.slider-button:hover {
+    background-color: #f5d313;
+} 
+

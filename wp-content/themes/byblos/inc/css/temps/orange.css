@@ -1,0 +1,122 @@
+/* 
+    Document   : orange
+    Created on : Jul 6, 2014, 2:28:39 AM
+    Author     : Bilal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+a,a:visited,
+body.single-event .event-details {
+  color: #ff6600;
+}
+a:hover,#site-navigation.main-navigation li a:hover,
+.site-branding.dark #site-navigation.main-navigation li a:hover{
+    color: #D85904;
+}
+
+.sc-slider-wrapper .camera_caption{
+    background: #ff6600;
+    color: #fff;
+}
+
+#site-navigation.main-navigation li a:hover,
+#site-navigation.main-navigation li.current_page_item > a{
+    /*background:#D85904;*/
+    color: #D85904;
+    transition: 0.3s all ease;
+    -moz-transition: 0.3s all ease;
+    -webkit-transition: 0.3s all ease;
+}
+
+.site-branding #site-navigation.main-navigation .menu li.current_page_item > a,
+.site-branding #site-navigation.main-navigation .menu li.current-menu-ancestor > a{
+    color: #D85904;
+}
+
+.site-branding .site-title a{
+    color: #ff6600;
+}
+.primary-color{ color: #ff6600;}
+.btn-primary {
+    background-color: #ff6600;
+    border-color: #EB5E00;
+    color: #ffffff !important;    
+}
+a.button-primary,
+input[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+}
+.button-primary:hover,
+input[type="submit"]:hover{
+    background-color: #d35500;
+    color: #fff;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  background-color: #EB5E00;
+  border-color: #B64900;
+}
+fieldset[disabled] .btn-primary.active {
+  background-color: #ff6600;
+}
+.btn-primary .badge {
+  color: #ff6600;
+}
+.btn-link {
+  color: #ff6600;
+}
+.sc-primary-color{ color: #ff6600;}
+.sc-primary-border{ border-color: #ff6600;}
+.site-branding .search-bar .search-field:focus{
+    border-bottom: 1px solid #ff6600;
+}
+.icon404{
+    color: #ff6600;
+}
+.nav-menu > li a:hover{
+    color: #ff6600;
+}
+.scroll-top:hover{
+    border-color: #ff6600;
+}
+#site-toolbar{
+    /*border-bottom: 1px solid #ff6600;*/
+}
+@media(max-width: 600px){
+    .nav-menu > li.current_page_item a{
+        color: #ff6600;
+    }      
+}
+
+.sc-slider-wrapper .camera_caption div a.slider-button {
+    color: #000;
+    border: thin solid;
+}
+
+/* Additional Rules */
+#sc-slider-banner.banner-below,
+.byblos-pricing-table .inner.special {
+    border-color: #ff6600;
+}
+
+.byblos-pricing-table .inner.special .widget-title,
+#homepage-area-b .byblos-pricing-table .inner.special span.special {
+    color: #ff6600;
+}
+
+.byblos-pricing-table .inner.special span.special,
+.camera_wrap .camera_pag .camera_pag_ul li:hover > span,
+.sc-slider-wrapper .camera_caption div a.slider-button,
+div#homepage-area-b.homepage-widget-area > .inner,
+body.single-event .event-details span.fa {
+    background-color: #ff6600;
+}
+
+.sc-slider-wrapper .camera_caption div a.slider-button:hover {
+    background-color: #d35500;
+} 
+
